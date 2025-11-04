@@ -1,0 +1,43 @@
+body {
+    background-image: url(fundo.jpg);
+    background-repeat: repeat; /* repete o padrão */
+    background-attachment: fixed; /* fundo fixo na rolagem */
+    background-size: auto; /* mantém o tamanho natural */
+    font-family: 'Pacifico', 'lato';
+    align-items: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.719);
+    font-size: 50px;
+    padding: 2rem;
+    margin:0;
+}
+h2{
+    background: rgba(0, 0, 0, 0.719);
+    text-align: center;
+}
+.botao {
+    background: rgba(0, 0, 0, 0.637);
+    margin: 8px;
+    display: inline-block;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+.botao:hover {
+    background-color: #237258; /* cor mais escura ao passar o mouse */
+}
+.mapa {
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+}
